@@ -37,7 +37,7 @@ The ask was to retrieve test subject demographics, and draw a bar chart and bubb
     * The default bar that indicates the value was set to transparent so that a needle pointer could be used on the chart.
 
     * To plot the pointer correctly, I referred to [this source](https://com2m.de/blog/technology/gauge-charts-with-plotly/) which explains the math behind the pointer angles.
-  ![Gauge Chart](static/images/gauge-chart.png)
+ ![Gauge Chart](static/images/gauge-chart.png)
 
 * A function called `plotCharts(id)` was created that would take in a test subject ID as a parameter and plot all the above charts.
 
