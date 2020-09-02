@@ -5,7 +5,7 @@ In this assignment, an interactive dashboard was built to explore the [Belly But
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-Demographics information is dynamically populated based upon  a user-selected test subject ID. A bar chart, bubble chart and a bonus gauge chart also updates once the ID is changed. Code has been written using Plotly, JavaScript, HTML, CSS, and D3.js.
+Demographics information is dynamically populated based upon  a user-selected test subject ID. A bar chart, bubble chart and a bonus gauge chart also update once the ID is changed. Code has been written using Plotly, JavaScript, HTML, CSS, and D3.js.
 
 All CSS, JS and images required are under the `static` folder. The main HTML file `index.html` is in the root folder of the Github repo.
 
@@ -17,7 +17,7 @@ The ask was to retrieve test subject demographics, and draw a bar chart and bubb
 
 * Read in `samples.json` using the D3 library
 
-* Retrieve metadata info for each test subject and displaying this in the form of an unordered list item as a key-value pair on the dashboard.
+* Retrieve metadata info for each test subject and display this in the form of an unordered list item as a key-value pair on the dashboard.
 
 * Get required data for plotting, including `sample_values`, `otu_ids` and `otu_labels` which were used to create a trace and plot the bar chart.
 
