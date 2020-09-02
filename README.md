@@ -53,3 +53,10 @@ Bootstrap and custom CSS was used to pretty up the dashboard. A screenshot of th
 
   ![Dashboard](static/images/dashboard.png)
 
+## Sources
+
+* Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
+
+* Gauge Charts with Plotly (help with pointer needle): https://com2m.de/blog/technology/gauge-charts-with-plotly/
+
+* Dashboard background photo by Elena Mozhvilo on [Unsplash](https://unsplash.com/photos/HRjdJddvPu8)
