@@ -9,7 +9,7 @@ Demographics information is dynamically populated based upon  a user-selected te
 
 All CSS, JS and images required are under the `static` folder. The main HTML file `index.html` is in the root folder of the Github repo.
 
-**The dashboard can be viewed here:[Belly Button Diversity Dashboard](https://neha-nayeem.github.io/plotly-challenge)**
+**The dashboard can be viewed here: [Belly Button Diversity Dashboard](https://neha-nayeem.github.io/plotly-challenge)**
 
 ## Plotly
 
@@ -29,7 +29,7 @@ The ask was to retrieve test subject demographics, and draw a bar chart and bubb
   ![Bubble Chart](static/images/bubble-chart.png)
 
 * The bonus challenge was to create a gauge chart. Using the [documentation](https://plot.ly/javascript/gauge-charts/), an indicator trace was created with `wfreq` as the value for plotting. 
-  ![Gauge Chart](static/images/gauge-chart.png)
+
     * Any null values were given a value of zero.
 
     * The gauge chart accounts for weekly washing frequency values ranging from 0-9.
@@ -37,7 +37,7 @@ The ask was to retrieve test subject demographics, and draw a bar chart and bubb
     * The default bar that indicates the value was set to transparent so that a needle pointer could be used on the chart.
 
     * To plot the pointer correctly, I referred to [this source](https://com2m.de/blog/technology/gauge-charts-with-plotly/) which explains the math behind the pointer angles.
-
+  ![Gauge Chart](static/images/gauge-chart.png)
 
 * A function called `plotCharts(id)` was created that would take in a test subject ID as a parameter and plot all the above charts.
 
@@ -47,8 +47,9 @@ The ask was to retrieve test subject demographics, and draw a bar chart and bubb
 
 * Everytime a new ID is selected from the dropdown (on change), an `optionChanged(this.value)` function is called, that resets the data once again and calls the `plotCharts()` function.
 
-## Screenshot
+## Dashboard
 
 Bootstrap and custom CSS was used to pretty up the dashboard. A screenshot of the dashboard can be seen below.
+
   ![Dashboard](static/images/dashboard.png)
 
