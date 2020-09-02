@@ -313,7 +313,8 @@ function plotCharts(id) {
             },
             hoverlabel: {
                 font: {
-                    family: 'Quicksand'
+                    family: 'Quicksand',
+                    size: 16
                 }
             },
             title: {
@@ -329,13 +330,15 @@ function plotCharts(id) {
                 zeroline: false,
                 showticklabels: false,
                 showgrid: false,
-                range: [-1, 1]
+                range: [-1, 1],
+                fixedrange: true // disable zoom
             },
             yaxis: {
                 zeroline: false,
                 showticklabels: false,
                 showgrid: false,
-                range: [-0.5, 1.5]
+                range: [-0.5, 1.5],
+                fixedrange: true // disable zoom
             }
         };
 
